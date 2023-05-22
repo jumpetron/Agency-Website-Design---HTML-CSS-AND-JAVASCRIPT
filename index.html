@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Swiperjs CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Remixicon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Agency Website Design - HTML, CSS AND JAVASCRIPT</title>
+</head>
+<body>
+    <!--============ Navbar ============-->
+        <header>
+            <nav class="navbar container">
+                <a href="#" class="logo">
+                    <img src="images/logo.svg" alt="">
+                </a>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#service" class="nav__link">Service</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#price" class="nav__link">Price</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#testimonial" class="nav__link">Testimonial</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="button__group">
+                    <a href="#" class="btn menu__btn">
+                        Contact
+                    </a>
+
+                    <div class="menu__icon" id="menu-icon">
+                        <i class="ri-menu-3-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!--============ Hero Section ============-->
+                <section class="home container" id="home">
+                    <div class="hero__section">
+                        <div class="hero__data">
+                            <h2 class="hero__title section__title">
+                                Great software is built with <span>amazing developers</span>
+                            </h2>
+                            <p class="hero__description">
+                                We help build and manage a team of world-class developers to bring your vision to life
+                            </p>
+                            <button class="btn hero__btn">
+                                Get Started
+                            </button>
+                        </div>
+                        <div class="hero__image">
+                            <img src="images/hero-img.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Our Feature Clients -->
+
+                    <div class="our__clients">
+                        <div class="our__clients-data">
+                            <h3 class="our__clients-title">
+                                Meet our Clients
+                            </h3>
+                            <p class="our__clients-description">
+                                This guys are using our service and they're more than happier ever.
+                            </p>
+                        </div>
+                        <!-- Slider main container -->
+                        <div class="swiper client__slider">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                            <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img src="images/microsoft.svg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/google.svg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/paypal.svg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/uber.svg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/dribble.svg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/dribble.svg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/uber.svg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/microsoft.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--============ About Section ============-->
+                <section class="about__section container" id="about">
+                    <div class="about__image">
+                        <img src="images/about-img.png" alt="">
+                    </div>
+                    <div class="about__data">
+                        <h2 class="about__title section__title">
+                            Boost your agencies by choosing <span>Ninja Developers</span>
+                        </h2>
+                        <p class="about__description">
+                            Create custom landing pages with Shades that convert more visitors than any website, no coding required.
+                        </p>
+                        <ul class="our__feature">
+                            <li>
+                                <i class="ri-checkbox-circle-fill"></i> Unlimited design possibility
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-fill"></i> Completely responsive features
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-fill"></i> Easy to customize plugins
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            <!--============ Our Service ==============-->
+                <section class="service__section" id="service">
+                    <div class="service__container container">
+                        <div class="service__data">
+                            <h2 class="service__title section__title">
+                                Our service
+                            </h2>
+                            <p class="service__subtitle">
+                                Determine the service you need
+                            </p>
+                        </div>
+                        <div class="service__card-box">
+                            <div class="service__card">
+                                <img src="images/development.svg" alt="">
+                                <p>Development</p>
+                                <small>Create a platform with the best and coolest quality from us.</small>
+                            </div>
+                            <div class="service__card">
+                                <img src="images/ui.svg" alt="">
+                                <p>UI/UX Designer</p>
+                                <small>Create a platform with the best and coolest quality from us.</small>
+                            </div>
+                            <div class="service__card">
+                                <img src="images/motion.svg" alt="">
+                                <p>Motion Graphik</p>
+                                <small>Create a platform with the best and coolest quality from us.</small>
+                            </div>
+                            <div class="service__card">
+                                <img src="images/award.svg" alt="">
+                                <p>Best Award history</p>
+                                <small>Create a platform with the best and coolest quality from us.</small>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--============ Hire Developers ===========-->
+                <section class="hire__developer">
+                    <div class="container">
+                        <div class="hire__devloper-card">
+                            <h2 class="hire__title">
+                                Hire the world’s best developers and designers around!
+                            </h2>
+                            <button class="btn hire__developer-btn">HIRE DEVELOPERS</button>
+                        </div>
+                    </div>
+                </section>
+            <!--============ Pricing Section ===========-->
+                <section class="pricing__section container" id="price">
+                    <div class="pricing__data">
+                        <h2 class="pricing__title section__title">
+                            Our Price
+                        </h2>
+                        <p class="pricing__description">
+                            Choose the price that suits your needs, we will always give the best for you
+                        </p>
+                    </div>
+                    <div class="pricing__card-box">
+                        <div class="pricing__card card-1">
+                            <h2 class="price">
+                                $50 <small>/month</small>
+                            </h2>
+                            <h3 class="plan">
+                                Base
+                            </h3>
+                            <small class="plan__description">
+                                For most businesses that want to otpimize web queries
+                            </small>
+                            <ul class="feature__list">
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>All limited links</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Own analytics platform</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Chat support</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Optimize hashtags</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Unlimited users</small>
+                                </li>
+                            </ul>
+                            <a href="#">Choose Plan</a>
+                        </div>
+                        <div class="pricing__card card-2">
+                            <h2 class="price">
+                                $100 <small>/month</small>
+                            </h2>
+                            <h3 class="plan">
+                                Pro
+                            </h3>
+                            <small class="plan__description">
+                                For most businesses that want to otpimize web queries
+                            </small>
+                            <ul class="feature__list">
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>All limited links</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Own analytics platform</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Chat support</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Optimize hashtags</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Unlimited users</small>
+                                </li>
+                            </ul>
+                            <a href="#">Choose Plan</a>
+                        </div>
+                        <div class="pricing__card card-3">
+                            <h2 class="price">
+                                $200 <small>/month</small>
+                            </h2>
+                            <h3 class="plan">
+                                Enterprise
+                            </h3>
+                            <small class="plan__description">
+                                For most businesses that want to otpimize web queries
+                            </small>
+                            <ul class="feature__list">
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>All limited links</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Own analytics platform</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Chat support</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Optimize hashtags</small>
+                                </li>
+                                <li class="feature">
+                                    <i class="ri-checkbox-circle-line"></i> <small>Unlimited users</small>
+                                </li>
+                            </ul>
+                            <a href="#">Choose Plan</a>
+                        </div>
+                    </div>
+                </section>
+            <!--=========== Testimonials Section ========-->
+            <section class="testimonial__section" id="testimonial">
+                <div class="testimonial__container container">
+                    <div class="title__section testimonial__title-section">
+                        <h2 class="testimonial__title section__title">
+                            What our Customer say
+                        </h2>
+                        <p class="testimonial__subtitle section__subtitle">
+                            Their experience throughout every platform
+                        </p>
+                    </div>
+                    <!-- Slider main container -->
+                    <div class="swiper testimonial">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="testimonial__card">
+                                <img src="images/customer.png" alt="">
+                                <div class="rating__box">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    They transformed our website into a stunning masterpiece. The team's expertise, creativity, and attention to detail exceeded our expectations. Highly recommend!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial__card">
+                                <img src="images/customer.png" alt="">
+                                <div class="rating__box">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    They transformed our website into a stunning masterpiece. The team's expertise, creativity, and attention to detail exceeded our expectations. Highly recommend!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial__card">
+                                <img src="images/customer.png" alt="">
+                                <div class="rating__box">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    They transformed our website into a stunning masterpiece. The team's expertise, creativity, and attention to detail exceeded our expectations. Highly recommend!
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <!--============ Footer Section ===========-->
+            <section class="footer__section">
+                <div class="footer__container container">
+                    <div class="subscribe__form">
+                        <h2 class="subscribe__title">
+                            Subscribe to get notified about update
+                        </h2>
+                        <small>By subscribing with your mail, you will accept our privacy policy</small>
+                        <div class="input__box">
+                            <input type="email" placeholder="Enter your email">
+                            <button>Subscribe us</button>
+                        </div>
+                    </div>
+                    <div class="footer__area">
+                        <div class="footer__logo">
+                            <img src="images/footer-logo.svg" alt="">
+                        </div>
+                        <div class="footer__menu">
+                            <a href="#" class="footer__menu-link">About</a>
+                            <a href="#" class="footer__menu-link">Service</a>
+                            <a href="#" class="footer__menu-link">Terms & Condition</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    
+           
+    <!-- Swiperjs CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

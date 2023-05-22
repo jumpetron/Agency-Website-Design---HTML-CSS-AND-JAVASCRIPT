@@ -1,0 +1,71 @@
+nav__link -> Home, About, Service, Price, Testimonial
+
+menu__btn -> Contact
+
+<!--============ Hero Section ============-->
+
+hero__title -> Great software is built with <span>amazing developers</span>
+
+hero__description -> We help build and manage a team of world-class developers to bring your vision to life
+
+hero__btn -> Get Started
+
+our__clients-title -> Meet our Clients 
+
+our__clients-description -> This guys are using our service and they're more than happier ever.
+
+<!--============ About Section ============-->
+
+about__title -> Boost your agencies by choosing <span>Ninja Developers</span>
+
+about__description -> Create custom landing pages with Shades that convert more visitors than any website, no coding required.
+
+our__feature -> Unlimited design possibility, Completely responsive features, Easy to customize plugins
+
+<!--============= Our Service =============-->
+
+service__title -> Our service
+
+service__subtitle -> Determine the service you need
+
+service__card -> Development, UI/UX Designer, Motion Graphik, Best Award history
+
+Create a platform with the best and coolest quality from us.
+
+<!--============= Hire Developers =========-->
+
+hire__title -> Hire the world’s best developers and designers around!
+
+hire__developer-btn -> HIRE DEVELOPERS
+
+<!--============= Pricing Section ==========-->
+
+pricing__title -> Our Price
+
+pricing__description -> Choose the price that suits your needs, we will always give the best for you
+
+price -> $50 <small>/month</small>, $100 <small>/month</small>,  $200 <small>/month</small>
+
+plan -> Base, Pro, Enterprise
+
+plan__description -> For most businesses that want to otpimize web queries
+
+feature -> All limited links, Own analytics platform, Chat support, Optimize hashtags, Unlimited users
+
+<!--============ Testimonials Section ==========-->
+
+testimonial__title -> What our Customer say
+
+testimonial__subtitle -> Their experience throughout every platform
+
+testimonial__description -> They transformed our website into a stunning masterpiece. The team's expertise, creativity, and attention to detail exceeded our expectations. Highly recommend!
+
+<!--============= Footer Section ==========-->
+
+subscribe__title -> Subscribe to get notified about update
+
+<small>By subscribing with your mail, you will accept our privacy policy</small>
+
+button -> Subscribe us
+
+footer__menu -> About, Service, Terms & Condition
